@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+	
+	<style>
+	html{
+	background:#151515;
+	}
+		body {
+			padding: 20 16px;
+			background:#190B07;
+		}
+		.navbar{
+		padding: 2em 1em;
+		}
+		.container {
+		  padding: 2em 1em;
+		  background:#151515;
+		}
+		
+		h4 {
+		  margin-top: 1.5em;
+		}
+		.row {
+		  margin-bottom: 0em;
+		}
+		.row .row {
+		  margin-top: 0em;
+		  margin-bottom: 0;
+		}
+		[class*="col-"] {
+		  padding: 0em 0;
+		  background-color: rgba(255,195,13,.3);
+		  border: 1px solid rgba(255,195,13,.4);
+}
+.span2 {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.c{
+height:270px;
+}
+.hs2{
+height:540px;
+}
+
+p.img{
+text-align:center;
+}
+p{
+padding:0px 25px 25px 25px;
+color:#FBF8EF;
+}
+.carousel-inner p{
+padding:0px 35px 35px 35px;
+color:#19070B;
+}
+.carousel-inner h3{
+padding:15px 25px 10px 35px;
+color:#19070B;
+}
+
+h3{
+padding:35px 25px 0px 25px;
+color:#FBF8EF;
+}
+.c1{
+background:#CD853F;
+}
+.c2{
+background:#696969;
+}
+
+.c3{
+background:#663333;
+}
+.c4{
+background:#2E2E2E;
+}
+.log{
+position:absolute;
+margin-left:-40px;
+background:white;
+margin-top:-10px;
+height:90px;
+width:90px;
+border-radius:50%;
+opacity: 0.4;
+}
+
+.glyphicon.glyphicon-triangle-left{
+color:#000000;
+margin-left:-35px;
+margin-top:135px;
+}
+.glyphicon.glyphicon-triangle-right{
+color:#000000;
+margin-right:-35px;
+margin-top:135px;
+}
+
+ul.nav.navbar-nav.pull-right li.active a  {
+    color: white!important;
+    background:#585858!important;
+
+}
+
+	</style>
+
+  </head>
+  <body>
+   <div class="container">
+  <nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!—Название сайта и кнопка раскрытия меню для мобильных-->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <div class="logo"><div class="log"></div>
+      <a class="navbar-brand" href="#">HTMLTESTER</a>
+	  </div>
+    </div>
+ 
+    <!—Само меню-->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!--ul class="nav navbar-nav"-->
+	  
+	  <ul class="nav navbar-nav pull-right">
+        <li class="active"><a href="#">COMPANY</a></li>
+        <li><a href="#">GAMES</a></li>
+        <li><a href="#">TEAM</a></li>
+        <li><a href="#">CONTACTS</a></li>
+      </ul>    
+    </div>
+  </div>
+</nav>
+
+  
+ <!-- 
+<div class="header">
+<ul class="nav nav-pills pull-right">
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+<h3 class="text-muted">Project name</h3>
+</div>
+    
+	<div class="carousel-item">
+  <img src="..." alt="...">
+  <div class="carousel-caption">
+    <h3>...</h3>
+    <p>...</p>
+  </div>
+</div>
+	
+	
+<br/><br/><br/><br/>
+<!-- ------------------------------------------------------------------------------------------ -->	
+
+<div class="row hs">
+
+            <div class="col-md-6 c c1">
+<!-- ------------------------------------------------------------------------------------------ -->	
+	
+   <div id="carousel" class="carousel slide" data-ride="carousel" style="display: inline-block;">
+   
+   
+        <div class="carousel-inner">
+            <div class="item active">
+				<h3><b>CHAPTER 1</b></h3><br/>
+				<p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap from its Less/Sass source and not using our Gruntfile, you'll need to integrate Autoprefixer into your build process yourself. If you're using precompiled Bootstrap or using our Gruntfile, you don't need to worry about this because Autoprefixer is already integrated into our Gruntfile.
+www.chapter1.ru</p> 
+            </div>
+            <div class="item">
+                <h3><b>CHAPTER 2</b></h3><br/>
+				<p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap from its Less/Sass source and not using our Gruntfile, you'll need to integrate Autoprefixer into your build process yourself. If you're using precompiled Bootstrap or using our Gruntfile, you don't need to worry about this because Autoprefixer is already integrated into our Gruntfile.
+www.chapter1.ru</p> 
+            </div>
+            <div class="item">
+                <h3><b>CHAPTER 3</b></h3><br/>
+				<p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap from its Less/Sass source and not using our Gruntfile, you'll need to integrate Autoprefixer into your build process yourself. If you're using precompiled Bootstrap or using our Gruntfile, you don't need to worry about this because Autoprefixer is already integrated into our Gruntfile.
+www.chapter1.ru</p> 
+            </div>
+			
+			<!-- Элементы управления -->
+        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>
+            <span class="sr-only">Предыдущий</span>
+        </a>
+        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+            <span class="sr-only">Следующий</span>
+        </a>
+			
+			
+        </div>
+    </div>
+   
+   
+	
+<!-- ------------------------------------------------------------------------------------------ -->	
+	</div>		
+			
+				
+			
+            	<!--h3><b>CHAPTER 1</b></h3><br/>
+<p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap from its Less/Sass source and not using our Gruntfile, you'll need to integrate Autoprefixer into your build process yourself. If you're using precompiled Bootstrap or using our Gruntfile, you don't need to worry about this because Autoprefixer is already integrated into our Gruntfile.
+www.chapter1.ru</p>
+            </div-->
+            <div class="col-md-3 c c2">
+                <p><img class="span2" src="img/sl5.png"></p>
+           </div>
+		   <div class="col-md-3 c c3">
+                <p class="img"><img class="span2" src="img/sl6.png" height="195em"><img class="span2" src="img/sl4.png"></p>
+           </div>
+      	</div> 
+<!-- ------------------------------------------------------------------------------------------ -->	
+	
+        <div class="row">
+            <div class="col-md-3 hs2">
+               <h3><b>CHAPTER 1</b></h3><br/>
+<p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap from its Less/Sass source and not using our Gruntfile, you'll need to integrate Autoprefixer into your build process yourself. If you're using precompiled Bootstrap or using our Gruntfile, you don't need to worry about this because Autoprefixer is already integrated into our Gruntfile.
+<br/><br/><br/><br/><br/><br/>www.chapter1.ru</p> 
+            </div>
+            <div class="col-md-6 hs2">
+            	<div class="col-md-12 c">
+                <img class="span2" src="img/sl-11.png" height="100%" width="100%">
+           </div>
+		   
+		   <div class="col-md-12 c">
+               <div class="col-md-6 c c3">
+                <h3><b>CHAPTER 3</b></h3><br/>
+<p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap 
+<br/><br/><br/>www.chapter1.ru</p> 
+           </div>
+		   <div class="col-md-6 c c4">
+                <h3><b>CHAPTER 4</b></h3><br/>
+<p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap 
+<br/><br/><br/>www.chapter1.ru</p> 
+
+</div> 
+           </div>
+		   
+            </div>
+            <div class="col-md-3 hs2">
+                <h3><b>CHAPTER 2</b></h3><br/>
+<p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap from its Less/Sass source and not using our Gruntfile, you'll need to integrate Autoprefixer into your build process yourself. If you're using precompiled Bootstrap or using our Gruntfile, you don't need to worry about this because Autoprefixer is already integrated into our Gruntfile.
+<br/><br/><br/><br/><br/><br/>www.chapter1.ru</p> 
+           </div>
+		   
+      	</div> <!-- end row -->
+	<!-- ------------------------------------------------------------------------------------------ -->	
+	
+	
+	
+	<!-- ------------------------------------------------------------------------------------------ -->	
+	
+	
+	<!-- ------------------------------------------------------------------------------------------ -->	
+	
+	
+	<!-- ------------------------------------------------------------------------------------------ -->	
+	
+	
+	<!-- ------------------------------------------------------------------------------------------ -->	
+	
+</div>	
+<!-- ------------------------------------------------------------------------------------------ -->	
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
