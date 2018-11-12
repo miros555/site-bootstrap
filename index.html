@@ -15,19 +15,20 @@
     <![endif]-->
 	
 	<style>
-	html{
-	background:#151515;
-	}
+	.navbar-inverse {
+    background-color: #262424;
+    border-color: #262424;
+}
 		body {
 			padding: 20 16px;
-			background:#190B07;
+			background:rgb(38, 36, 36);
 		}
 		.navbar{
 		padding: 2em 1em;
 		}
 		.container {
 		  padding: 2em 1em;
-		  background:#151515;
+		  background:rgb(38, 36, 36);
 		}
 		
 		h4 {
@@ -41,9 +42,14 @@
 		  margin-bottom: 0;
 		}
 		[class*="col-"] {
+		
 		  padding: 0em 0;
+		  background-color: rgba(38,36,36,.3);
+		  border: 1px solid rgba(38,36,36,.4);
+		  border:none !important
+		  <!--
 		  background-color: rgba(255,195,13,.3);
-		  border: 1px solid rgba(255,195,13,.4);
+		  border: 1px solid rgba(255,195,13,.4);-->
 }
 .span2 {
   margin: auto;
@@ -52,10 +58,10 @@
 }
 
 .c{
-height:270px;
+height:290px;
 }
 .hs2{
-height:540px;
+height:580px;
 }
 
 p.img{
@@ -89,7 +95,10 @@ background:#696969;
 background:#663333;
 }
 .c4{
-background:#2E2E2E;
+background:#262424;
+position:absolute;
+  z-index:99;
+  margin-left:50%;
 }
 .log{
 position:absolute;
@@ -105,18 +114,56 @@ opacity: 0.4;
 .glyphicon.glyphicon-triangle-left{
 color:#000000;
 margin-left:-35px;
-margin-top:135px;
+margin-top:145px;
 }
 .glyphicon.glyphicon-triangle-right{
 color:#000000;
 margin-right:-35px;
-margin-top:135px;
+margin-top:145px;
 }
 
 ul.nav.navbar-nav.pull-right li.active a  {
     color: white!important;
     background:#585858!important;
 
+}
+
+.shaped{
+ background-image: url(img/sh3.png);
+  background-size:cover;
+  position:absolute;
+  z-index:999;
+  width:55%;
+  height:100%;
+}
+  
+  
+  
+  [class*="col-"] {
+    padding: 0em 0;
+    border: none;
+    border-top-color:  #262424!important;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color:  #262424!important;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color:  #262424!important;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color:  #262424!important;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+	 border: none!important;
+    <!--
+    background-color: rgba(255,195,13,.3);
+    border: 1px solid rgba(255,195,13,.4);
+    -->: ;
 }
 
 	</style>
@@ -247,12 +294,12 @@ www.chapter1.ru</p>
            </div>
 		   
 		   <div class="col-md-12 c">
-               <div class="col-md-6 c c3">
+               <div class="col-md-6 c shaped">
                 <h3><b>CHAPTER 3</b></h3><br/>
 <p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap 
 <br/><br/><br/>www.chapter1.ru</p> 
            </div>
-		   <div class="col-md-6 c c4">
+		   <div class="col-md-6 c c4 ">
                 <h3><b>CHAPTER 4</b></h3><br/>
 <p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap 
 <br/><br/><br/>www.chapter1.ru</p> 
