@@ -15,6 +15,26 @@
     <![endif]-->
 	
 	<style>
+	
+.two{
+	background:url(img/sl-11.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+    z-index:998;
+	margin-bottom:-30px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 80% 90%, 75% 100%, 70% 90%, 30% 90%, 25% 100%, 20% 90%, 0% 90%);
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 80% 90%, 75% 100%, 70% 90%, 30% 90%, 25% 100%, 20% 90%, 0% 90%);
+	}
+.two2{
+	background:url(img/sl-11.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+    z-index:998;
+	margin-bottom:-30px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 80% 90%, 75% 100%, 70% 90%, 30% 90%, 25% 100%, 20% 90%, 0% 90%);
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 80% 90%, 75% 100%, 70% 90%, 30% 90%, 25% 100%, 20% 90%, 0% 90%);
+	}
+	
 	.navbar-inverse {
     background-color: #262424;
     border-color: #262424;
@@ -24,7 +44,7 @@
 			background:rgb(38, 36, 36);
 		}
 		.navbar{
-		padding: 2em 1em;
+		padding: 4em 1em;
 		}
 		.container {
 		  padding: 2em 1em;
@@ -47,18 +67,23 @@
 		  background-color: rgba(38,36,36,.3);
 		  border: 1px solid rgba(38,36,36,.4);
 		  border:none !important
-		  <!--
-		  background-color: rgba(255,195,13,.3);
-		  border: 1px solid rgba(255,195,13,.4);-->
+		  
 }
 .span2 {
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
+  max-height:290px;
+  weight:100%;
+  cursor: pointer;
+    cursor: hand; /* Для старых браузеров */
 }
 
 .c{
 height:290px;
+}
+.c22{
+height:318px;
 }
 .hs2{
 height:580px;
@@ -67,6 +92,8 @@ height:580px;
 p.img{
 text-align:center;
 }
+
+
 p{
 padding:0px 25px 25px 25px;
 color:#FBF8EF;
@@ -100,6 +127,34 @@ position:absolute;
   z-index:99;
   margin-left:50%;
 }
+.c5{
+background:url(img/sloy12.png);
+background-size:cover;
+background-repeat:no-repeat;
+}
+.c7{
+background:url(img/sloy14.png);
+background-size:cover;
+background-repeat:no-repeat;
+height:318px;
+margin-bottom:-30px;
+z-index:998;
+	margin-bottom:-30px;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 80% 90%, 75% 100%, 70% 90%, 30% 90%, 25% 100%, 20% 90%, 0% 90%);
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 80% 90%, 75% 100%, 70% 90%, 30% 90%, 25% 100%, 20% 90%, 0% 90%);
+}
+.c8{
+background:url(img/sloy15.png);
+background-size:cover;
+background-repeat:no-repeat;
+height:290px;
+}
+.c6{
+background:url(img/sloy13.png);
+background-size:cover;
+background-repeat:no-repeat;
+height:290px;
+}
 .log{
 position:absolute;
 margin-left:-40px;
@@ -132,9 +187,10 @@ ul.nav.navbar-nav.pull-right li.active a  {
  background-image: url(img/sh3.png);
   background-size:cover;
   position:absolute;
-  z-index:999;
-  width:55%;
+  z-index:996;
+  width:54%;
   height:100%;
+  padding-right:5px;
 }
   
   
@@ -160,12 +216,116 @@ ul.nav.navbar-nav.pull-right li.active a  {
     border-image-outset: initial;
     border-image-repeat: initial;
 	 border: none!important;
-    <!--
-    background-color: rgba(255,195,13,.3);
-    border: 1px solid rgba(255,195,13,.4);
-    -->: ;
+}
+.brd {
+    border-left: 3px dotted yellow;
+    border-bottom: 3px dotted yellow;	/* Параметры границы */
+    background: none; /* Цвет фона */
+    margin-top: -10px;
+    margin-left: 10px;	/* Поля вокруг текста */
+	height:560px;
+   }
+.brd2 {
+position:absolute;
+  z-index:999;
+    border-top: 3px dotted yellow;
+    border-bottom: 3px dotted yellow;	/* Параметры границы */
+    background: none; /* Цвет фона */
+    margin-top: 10px;
+    margin-bottom: 8px;	/* Поля вокруг текста */
+   }
+.brd3 {
+    border-top: 3px dotted yellow;
+    border-bottom: 3px dotted yellow;
+    border-right: 3px dotted yellow;	/* Параметры границы */
+    background: none; /* Цвет фона */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: -3px;	/* Поля вокруг текста */
+   }
+   
+.brd4 {
+    border-top: 3px dotted yellow;
+    border-bottom: 3px dotted yellow;
+    border-right: 3px dotted yellow;	
+	border-left: 3px dotted yellow;
+    background: none; /* Цвет фона */
+    margin-top: 10px;
+    margin-bottom:1200px;
+    margin-right: 8px;	
+	margin-left: 10px;
+   } 
+ .brd5 {
+    border-top: 3px dotted yellow;
+	border-left: 3px dotted yellow;
+    background: none; /* Цвет фона */
+    margin-top: 10px;
+	margin-left: 10px;
+   }   
+   
+  .brd6 {
+    border-top: 3px dotted yellow;
+    background: none; /* Цвет фона */
+    margin-top: 10px;
+   } 
+   
+.brd7 {
+    border-top: 3px dotted yellow;
+	border-right: 3px dotted yellow;
+    background: none; /* Цвет фона */
+    margin-top: 10px;
+	margin-right: 10px;
+   }    
+   
+   .img_video {
+    cursor: pointer;
+    cursor: hand; /* Для старых браузеров */
 }
 
+   
+   #modal_form {
+    width: 700px; 
+    height: 550px; /* Рaзмеры дoлжны быть фиксирoвaны */
+    position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+    top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+    left: 50%; /* пoлoвинa экрaнa слевa */
+    margin-top: -275px;
+    margin-left: -350px; /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
+    display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+    opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+    z-index: 9999; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+    padding: 20px 10px;
+}
+ 
+/* Пoдлoжкa */
+#overlay {
+    z-index:9998; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+    position:fixed; /* всегдa перекрывaет весь сaйт */
+    background-color:#000; /* чернaя */
+    opacity:0.98; /* нo немнoгo прoзрaчнa */
+    -moz-opacity:0.98; /* фикс прозрачности для старых браузеров */
+    filter:alpha(opacity=80);
+    width:100%; 
+    height:100%; /* рaзмерoм вo весь экрaн */
+    top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+    left:0;
+    cursor:pointer;
+    display:none; /* в oбычнoм сoстoянии её нет) */
+}
+ 
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+.modal_close {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+    color:white;
+}
+  
+   
 	</style>
 
   </head>
@@ -221,12 +381,11 @@ ul.nav.navbar-nav.pull-right li.active a  {
 	
 	
 <br/><br/><br/><br/>
-<!-- ------------------------------------------------------------------------------------------ -->	
+	
 
 <div class="row hs">
 
-            <div class="col-md-6 c c1">
-<!-- ------------------------------------------------------------------------------------------ -->	
+            <div class="col-md-6 c c1"> -->	
 	
    <div id="carousel" class="carousel slide" data-ride="carousel" style="display: inline-block;">
    
@@ -263,8 +422,6 @@ www.chapter1.ru</p>
     </div>
    
    
-	
-<!-- ------------------------------------------------------------------------------------------ -->	
 	</div>		
 			
 				
@@ -280,62 +437,239 @@ www.chapter1.ru</p>
                 <p class="img"><img class="span2" src="img/sl6.png" height="195em"><img class="span2" src="img/sl4.png"></p>
            </div>
       	</div> 
-<!-- ------------------------------------------------------------------------------------------ -->	
+
 	
         <div class="row">
             <div class="col-md-3 hs2">
+			<div class="brd">
                <h3><b>CHAPTER 1</b></h3><br/>
 <p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap from its Less/Sass source and not using our Gruntfile, you'll need to integrate Autoprefixer into your build process yourself. If you're using precompiled Bootstrap or using our Gruntfile, you don't need to worry about this because Autoprefixer is already integrated into our Gruntfile.
 <br/><br/><br/><br/><br/><br/>www.chapter1.ru</p> 
             </div>
+			 </div>
             <div class="col-md-6 hs2">
-            	<div class="col-md-12 c">
-                <img class="span2" src="img/sl-11.png" height="100%" width="100%">
+            	<div class="col-md-12 c22 two">
+                
            </div>
 		   
 		   <div class="col-md-12 c">
-               <div class="col-md-6 c shaped">
+		         
+		   
+               <div class="col-lg-6 c shaped">
+			   <div class="brd2">
                 <h3><b>CHAPTER 3</b></h3><br/>
 <p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap 
 <br/><br/><br/>www.chapter1.ru</p> 
+                  </div>
            </div>
-		   <div class="col-md-6 c c4 ">
-                <h3><b>CHAPTER 4</b></h3><br/>
+		   <div class="col-lg-6 c c4 ">
+		   <div class="brd3">
+                <h3><br/></h3><br/>
 <p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap 
 <br/><br/><br/>www.chapter1.ru</p> 
-
+            </div>
 </div> 
            </div>
 		   
             </div>
             <div class="col-md-3 hs2">
+			<div class="brd">
                 <h3><b>CHAPTER 2</b></h3><br/>
 <p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap from its Less/Sass source and not using our Gruntfile, you'll need to integrate Autoprefixer into your build process yourself. If you're using precompiled Bootstrap or using our Gruntfile, you don't need to worry about this because Autoprefixer is already integrated into our Gruntfile.
 <br/><br/><br/><br/><br/><br/>www.chapter1.ru</p> 
+         </div>
            </div>
 		   
       	</div> <!-- end row -->
-	<!-- ------------------------------------------------------------------------------------------ -->	
 	
 	
 	
-	<!-- ------------------------------------------------------------------------------------------ -->	
+	<div class="row hs">
+
+            <div class="col-md-6 c c5">
+
+	           </div>		
+			
+            <div class="col-md-3 c ">
+                <p><img class="span2" src="img/HTML.png"></p>
+           </div>
+		   <div class="col-md-3 c c3">
+                <p class="img"><img class="span2" src="img/star.png"></p>
+           </div>
+		   
+      	</div> 
 	
 	
-	<!-- ------------------------------------------------------------------------------------------ -->	
 	
 	
-	<!-- ------------------------------------------------------------------------------------------ -->	
+	<div class="row" hs2>
+	
+	<div class="col-md-6 c ">
+<div class="col-md-6 c c3"><br/>
+
+                <h3>CHAPTER 4</h3><br/>
+<p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap 
+<br/><br/><br/>www.chapter1.ru</p> 
+	   </div>
+	  
+        
+                        <div class="col-md-6 c">
+						<br/>
+						<br/>
+						<p>-- Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap 
+<br/>www.chapter1.ru</p> 
+<p>-- Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap 
+<br/>www.chapter1.ru</p> 
+						</div>
+<div class="col-md-12 c22 c7">				
+</div>
+						
+</div>
+
+
+ <div class="col-lg-3">
+ <div class="col-md-12 c c6">
+		  </div>
+		  <div class="col-md-12 c">
+		  <div class="brd4">
+		  <h3>CHAPTER 5</h3><br/>
+<p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap to deal with CSS vendor prefixes.
+<br/><br/>www.chapter1.ru</p> 
+</div>
+</div>
+ 
+ </div>		
+
+	
+		   <div class="col-md-3 hs2">
+		   <div class="brd">
+                <h3><br/>CHAPTER 6</h3><br/>
+<p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap 
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>www.chapter1.ru</p> 
+            </div>
+</div> 
+</div>
+
+
+      
+	
+	<div class="row">
 	
 	
-	<!-- ------------------------------------------------------------------------------------------ -->	
 	
-</div>	
-<!-- ------------------------------------------------------------------------------------------ -->	
+	<div class="col-md-3 c c2">
+	<div class="brd6">
+	<h3><br/>CHAPTER 7</h3><br/>
+<p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap 
+<br/><br/>www.chapter1.ru</p> 
+	</div>
+	</div>
+	
+	
+	<div class="col-md-3 c">
+	<div class="brd7">
+	<p><br/><br/>--Bootstrap from its Less/Sass source and not using our Gruntfile, you'll need to integrate Autoprefixer into your build process yourself. If you're using precompiled Bootstrap or using our Gruntfile, you don't need to worry about this because Autoprefixer is already integrated into our Gruntfile.
+<br/><br/>www.chapter1.ru</p> 
+</div>
+	</div>
+	
+	
+	
+	<div class="col-md-3 c c8">
+	<p class="img"><a><img onclick='show_video();'  class="span2" src="img/play.png"/>
+	</a>
+	</p>
+	</div>
+	
+	<div class="col-md-3 c">
+	<div class="brd5">
+	<p><br/>--Bootstrap from its Less/Sass source and not using our Gruntfile, you'll need to integrate Autoprefixer into your build process yourself. If you're using precompiled Bootstrap or using our Gruntfile, you don't need to worry about this because Autoprefixer is already integrated into our Gruntfile.
+<br/><br/>www.chapter1.ru</p> 
+	</div>
+	</div>
+	</div>
+	
+	
+	<div class="row">
+	<div class="col-md-3 c">
+	
+	</div>
+	
+	<div class="col-md-3 c">
+	
+	</div>
+	
+	<div class="col-md-3 c c2">
+	<h3>CHAPTER 8</h3><br/>
+<p>Bootstrap uses Autoprefixer to deal with CSS vendor prefixes. If you're compiling Bootstrap, you'll need to integrate Autoprefixer into your build process yourself you don't need to worry about 
+<br/>www.chapter1.ru</p> 
+</div>
+	
+	
+	<div class="col-md-3 c">
+	<a href="https://www.facebook.com/"><img class="span2" src="img/sloy8.png"/></a>
+	</div>
+	</div>
+	
+	
+	<div class="row">
+	<div class="col-md-6 c">
+	
+	</div>
+	
+	<div class="col-md-6 c" style="padding-top:60px;">
+	<br/><br/><p>Copyright © HTMLTESTER. 2009-2016. All right reserved.</p>
+	</div>
+	</div>
+	
+	
+
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	<script> 
+	function show_video()
+{
+ 
+    $('#overlay').fadeIn(400, // снaчaлa плaвнo пoкaзывaем темную пoдлoжку
+            function(){ // пoсле выпoлнения предъидущей aнимaции
+             
+                $('#modal_form') 
+                    .css('display', 'block') // убирaем у мoдaльнoгo oкнa display: none;    
+                    .animate({opacity: 1, top: '50%'}, 200); // плaвнo прибaвляем прoзрaчнoсть oднoвременнo сo съезжaнием вниз
+                 
+                document.getElementById('v1').contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+                     
+    });
+         
+    /* Зaкрытие мoдaльнoгo oкнa, тут делaем тo же сaмoе нo в oбрaтнoм пoрядке */
+    $('.modal_close, #overlay').click( function(){ // лoвим клик пo крестику или пoдлoжке
+             
+            $('#modal_form')
+            .animate({opacity: 0, top: '45%'}, 200,  // плaвнo меняем прoзрaчнoсть нa 0 и oднoвременнo двигaем oкнo вверх
+                function(){ // пoсле aнимaции
+                    $(this).css('display', 'none'); // делaем ему display: none;
+                    $('#overlay').fadeOut(400); // скрывaем пoдлoжку
+                }
+            ); 
+             
+            document.getElementById('v1').contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
+    });
+} 
+	</script>
+	
+	<div id="modal_form"><!-- Сaмo oкнo -->
+      <span class="modal_close">X</span> <!-- Кнoпкa зaкрыть -->
+      <!-- Тут любoе сoдержимoе -->
+        <center>
+<iframe id="v1" width="560" height="315" src="https://www.youtube.com/embed/VaX9irsv6q8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </center>
+</div>
+ 
+<div id="overlay">
+</div><!-- Пoдлoжкa -->
+	
   </body>
 </html>
